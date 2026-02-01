@@ -1,18 +1,30 @@
-# Project
-Model prediction and Link analysis for HDB resale prices
+# Model Prediction and Link Analysis for HDB Datasets
+Model Prediction and Link Analysis for HDB Datasets
+This project focuses on analyzing HDB resale data through two main components: Model Prediction and Link Analysis.
+The goal is to explore data patterns, build predictive models, and uncover relational insights within the HDB dataset.
 
-# Folders
-There are 3 folders, "Jupyter Notebooks", "Slides", "Data"
+# Project Structure
+The repository contains three main folders:
 
-## Jupyter Notebooks
-There are two jupyter notebooks, Model Prediction.ipynb and Link Analysis.ipynb.  
-Model Prediction.ipynb is the jupyter notebook file for Model Prediction Tasks I and II.  
-Link Analysis.ipynb is the jupyter notebook file for Link Analysis Tasks I and II.  
-To run the notebooks, install the python packages specified in requirements.txt.  
+1. Jupyter Notebooks
+This directory includes the main analysis notebooks.  
+Model_Prediction.ipynb – Covers Model Prediction Tasks I and II, including preprocessing, model building, and evaluation.  
+Link_Analysis.ipynb – Covers Link Analysis Tasks I and II, focusing on network relationships and connectivity patterns within the dataset.  
+To run the notebooks, install all required Python packages listed in requirements.txt.
 
-## Slides
-Model_Prediction_Slides are the slides explaining Model Prediction Task I.
+2. Slides
+This folder contains presentation slides summarising the findings.  
+Model_Prediction_Slides – Slides explaining Model Prediction Task I.  
+Link_Analysis_Slides – Slides covering Link Analysis Tasks I and II.
 
-## Data
-The datasets used can be found under the 'Data' directory.  
-Data used include HDB resale prices and the Resale Price Index.
+3. Data
+The Data directory contains the datasets used in this project, including:  
+HDB resale price  
+HDB Resale Price Index
+
+# Getting Started
+Clone this repository.  
+Navigate to the project directory.  
+Install dependencies using (in terminal):  
+pip install -r requirements.txt  
+Open and run the Jupyter notebooks to reproduce the analysis.
